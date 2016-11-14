@@ -26,13 +26,13 @@ export class Ng2Plotly implements OnChanges, OnInit, AfterViewInit {
 
   ngOnChanges() {
     if (!this.firstRun) {
-      Plotly.newPlot(this.titleID, this.data, this.layout, {displayModeBar: false});
+      Plotly.newPlot(this.titleID, this.data, this.layout);
     }
   }
 
   ngAfterViewInit() {
     this.firstRun = false;
-    Plotly.newPlot(this.titleID, this.data, this.layout, {displayModeBar: false});
+    Plotly.newPlot(this.titleID, this.data, this.layout);
 
   }
 }
