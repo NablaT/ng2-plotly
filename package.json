@@ -11,5 +11,17 @@
     "chart"
   ],
   "homepage": "https://github.com/NablaT/ng2-plotly",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NablaT/ng2-plotly.git"
+  },
+  "author": "Remi Pourtier",
+  "bugs": {
+    "url": "https://github.com/NablaT/ng2-plotly/issues"
+  }
 }
