@@ -16,13 +16,11 @@ export class Ng2Plotly implements OnChanges, OnInit, AfterViewInit {
   private firstRun:boolean;
 
   constructor() { 
-    this.titleID = "testID";
+    this.chartID = "";
     this.firstRun = true;
   }
 
-  ngOnInit() {
-    this.titleID = this.chartID;
-  }
+  ngOnInit() {}
 
   ngOnChanges() {
     if (!this.firstRun) {
