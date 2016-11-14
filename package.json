@@ -1,0 +1,15 @@
+{
+  "name": "ng2-plotly",
+  "version": "0.0.1",
+  "description": "Angular 2 chart component for plotly.js",
+  "keywords": [
+    "angular2",
+    "ng2",
+    "plotly",
+    "angular 2",
+    "component",
+    "chart"
+  ],
+  "homepage": "https://github.com/NablaT/ng2-plotly",
+  "license": "MIT"
+}
